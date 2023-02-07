@@ -4,8 +4,9 @@ function randomAlarm() {
   let randNum = Math.ceil(Math.random() * 3600)
   console.log(randNum)
   if (randNum <= 30) {
-    document.body.appendChild('Beeping rn!')
     snd.play();
+    document.body.appendChild('Beeping rn!')
+
   }
 }
 
