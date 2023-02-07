@@ -5,7 +5,7 @@ function randomAlarm() {
   console.log(randNum)
   if (randNum <= 30) {
     snd.play();
-    document.body.appendChild('Beeping rn!')
+    document.body.innerHTML += `beeping...\n`;
 
   }
 }
